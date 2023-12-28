@@ -1,1 +1,12 @@
 /* Your code here */
+.main > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main > ul > li {
+    padding: 0.3rem 1rem;
+}
+.main a {
+    font-size: 12px;
+}

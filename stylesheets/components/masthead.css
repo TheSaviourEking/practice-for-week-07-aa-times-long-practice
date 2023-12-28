@@ -23,12 +23,16 @@
     align-items: center;
     justify-content: center;
     /* gap: 1rem; */
+
+}
+.masthead__technologies > div {
     border: 1px solid #e2e2e2;
     border-bottom: none;
     position: relative;
     top: 1px;
     background-color: white;
 }
+
 .masthead__date {
     grid-area: 3/1/span 1/ span 1;
 }
