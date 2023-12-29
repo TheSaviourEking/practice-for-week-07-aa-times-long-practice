@@ -46,6 +46,9 @@
     grid-area: 3/3/span 1/ span 1;
     justify-content: flex-end;
 }
+.masthead__paper i {
+    padding-right: 0.2rem;
+}
 
 .masthead__button {
     font-size: 11px;
