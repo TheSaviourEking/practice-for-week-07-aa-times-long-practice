@@ -1,1 +1,68 @@
 /* Your code here */
+.interest-bar {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+    grid-template-rows: 1fr;
+    gap: 0.2rem;
+    padding-top: 1rem;
+}
+.interest-bar > div {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding: 1rem 0.2rem;
+}
+.interest-bar > div >div {
+    /* border: 1px solid green; */
+}
+.interest-bar__story-title {
+    padding: 1rem 0.3rem;
+    border-right: 1px solid grey;
+}
+.interest-bar__story-title span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.interest-bar__image {
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+}
+.interest-bar__headline {
+    /* background-color: blue; */
+}
+.interest-bar__story {
+    /* background-color: green; */
+}
+.interest-bar__stock-price {
+    /* background-color: brown; */
+}
+.interest-bar__stock-price div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 33%;
+    padding-top: 0.7rem;
+    padding-bottom: 0.2em;
+    text-transform: uppercase;
+}
+.interest-bar__stock-price div:last-child {
+    border-bottom: none;
+}
+.interest-bar__stock-price div span:last-child {
+    color: green;
+    font-weight: bold;
+}
+.interest-bar__price {
+    background-color: violet;
+}
+.interest-bar__big-text {
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+    
