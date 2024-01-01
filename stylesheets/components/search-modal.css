@@ -1,5 +1,8 @@
 .search-modal {
   margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -7,4 +10,8 @@
   border: 1px solid #dedede;
   border-radius: 2px;
   padding: .4em;
+}
+
+.search-modal--hidden {
+    display: none;
 }
