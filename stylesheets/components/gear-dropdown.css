@@ -35,3 +35,8 @@
 .pref__section-link:hover {
   background-color: #dedede;
 }
+
+/* ME */
+.pref--hidden {
+    display: none;
+}
