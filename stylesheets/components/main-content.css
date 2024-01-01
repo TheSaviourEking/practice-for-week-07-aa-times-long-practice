@@ -184,12 +184,10 @@ img {
     }
     main .article {
 	grid-area: 1/1/7/-1;
-	background-color: red;
     }
     main .second {
 	grid-area: 7/1/11/-1;
-	background-color: pink !important;
-    
+
     }
 }
 
