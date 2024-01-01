@@ -173,3 +173,28 @@ img {
     color: #e2e2e2;
     margin-bottom: 0.5rem;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1200px) {
+    main {
+	grid-template-rows: repeat(8, 5rem);
+    }
+    main .third {
+	display: none;
+    }
+    main .article {
+	grid-area: 1/1/7/-1;
+	background-color: red;
+    }
+    main .second {
+	grid-area: 7/1/11/-1;
+	background-color: pink !important;
+    
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .interest-bar {
+	display: none;
+    }
+}
